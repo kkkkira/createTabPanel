@@ -1,2 +1,2 @@
 # createTabPanel
- create and search the relevant tab pages
+一个使用jquery和bootstrap的标签页插件：可以搜索关键词，并创建相应关键词为标题的标签页
