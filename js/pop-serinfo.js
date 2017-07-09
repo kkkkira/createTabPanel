@@ -47,7 +47,7 @@ function activePanel(attr){
 
 /*-----------------------------------------------*/
 /* createBtn 中绑定的是弹出框的id值 
-/* 即#pop 是popLayOut下layer配置项id的属性值
+/* 即#pop
 /*-----------------------------------------------*/
 function createBtn(cl){
 	$("#pop").on("click",".createbtn",function(){
