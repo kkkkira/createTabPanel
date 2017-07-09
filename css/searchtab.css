@@ -1,0 +1,157 @@
+*{
+	text-decoration: none;
+	font-family: "Microsoft Yahei";
+}
+
+
+.clearfix{
+	zoom:1;
+}
+
+.clearfix:after{
+	content:'';
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear:both;
+	overflow: hidden;
+}
+
+
+body{
+background-color:#fff;
+}
+.s-model{
+	width: 600px;
+	border-radius: 5px;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	border: 1px solid  #82BCE2;
+	background-color:#fff;
+	display: none;
+	z-index: 10;
+}
+
+
+.s-toolbtn{
+	width: 100%;
+	height: 40px;
+	border-bottom:2px solid #82BCE2;
+}
+
+.s-model h3{
+	display: inline-block;
+	font-size: 18px;
+	margin: 0;
+	width: 60%;
+	height: 40px;
+	padding-left: 10px;
+	line-height: 40px;
+}
+
+.s-extracont{
+	width: 100%;
+	margin:10px 0;
+}
+
+.s-modelcont span{
+	font-size: 15px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+
+.createbtn{
+	margin-left: 5px;
+}
+
+.s-modeltable, .s-modelartic{
+	width: 80%;
+	margin-left: 44px;
+}
+
+.s-modeltable thead{
+	background:#EDEDED;
+}
+
+.s-modelcont input{
+	width: 80%;
+	display: inline-block; 
+}
+
+
+.s-modelartic table tr{
+	height: 50px;
+	border-bottom:1px solid #EBEBEB;
+}
+
+.s-col-1{
+	width: 90%;
+}
+
+.s-col-2{
+	width: 10%;
+}
+	
+.s-closebtn{
+	float: right;
+	width:40px;
+	height:40px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	display: block;
+	color: #82BCE2;
+	cursor: pointer;
+}
+
+.s-closebtn:hover{
+	color: #599DCA;
+}
+
+
+.s-modelpanel{
+	padding:10px 20px;
+}
+
+
+.tabpanel{
+	position: relative;
+}
+.s-closetab{
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 16px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.s-closetab:hover{
+	border: 1px solid #61CEEE;
+}
+
+
+
+.s-search{
+	height:200px;
+	padding:20px;
+}
+
+
+.sz-serbtn{
+	margin-top: 20px;
+	width: 200px;
+	float: right;
+}
+.sz-serbtn button{
+	margin: 0 10px;
+}

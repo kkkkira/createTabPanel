@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/searchtab.css">
+	<style>
+		.box{
+			border: 4px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div  class='container'>
+		<h2>搜索添加tabPanel</h2>
+		<div id="pop">
+			<input id="s-inputip">
+			<button class="btn btn-default createbtn">搜索</button>
+		</div>
+		<div>
+			<div id="Tabpanel" class="tabpanel s-tabpanel">
+			<!--tablist-->
+				<ul class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active">
+						<a href="#maintab" aria-controls="maintab" role="tab" data-toggle="tab">active</a>
+					</li>
+				</ul>
+			<!--tabconent-->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="maintab">					
+						这是第一个标签页，在搜索框中输入关键字，可实现查询，以及创建以此关键为标签名的新tab-panel
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/pop-serinfo.js"></script>
+</body>
+</html>
